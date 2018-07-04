@@ -13,10 +13,10 @@ interface Person {
   lastName : string;
 }
 
-function greeter(person : Person) {
-  return "Hello, " + person.firstName + " " + person.lastName;
-}
+// function greeter(person : Person) {
+//   return "Hello, " + person.firstName + " " + person.lastName;
+// }
 
-let user = new Student("Jane", "M.", "User");
+// let user = new Student("Jane", "M.", "User");
 
-document.body.innerHTML = greeter(user);
+// document.body.innerHTML = greeter(user);
